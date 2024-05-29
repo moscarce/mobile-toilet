@@ -36,7 +36,7 @@ const NavBar = () => {
         <div>
           <img src={logo} alt="Logo" />
         </div>
-        <div className='flex gap-8 text-base font-bold text-[#242424]'>
+        <div className='flex gap-8 text-base font-bold text-[#242424] max-md:hidden'>
           {navLinks.map((link, index) => (
             <NavLink
               key={index}
