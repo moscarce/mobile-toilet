@@ -9,6 +9,38 @@ body{
   font-family: 'montserrat', sans-serif !important;
 }
 
+.service{
+  transition: all 0.3s ease;
+}
+
+  .service-card {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    transition: background-image 0.3s ease-in-out;
+  }
+
+  .service-card:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+  }
+
+
+.service:hover{
+  transform: translateY(-20px);
+  transition: all 0.3s ease;
+}
+
+.service button:hover{
+  background-color: #ff5e14;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+
+button{
+  color: white;
+  background-color: #f19124;
+}
+
 p{
   line-height: 26px;
 }

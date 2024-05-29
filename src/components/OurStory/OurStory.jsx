@@ -4,7 +4,7 @@ import Subtitle from '../shared/Subtitle/Subtitle';
 const OurStory = () => {
   return (
     <section>
-        <div  className="grid grid-cols-2 w-[100%] gap-24 py-12">
+        <div  className="grid grid-cols-2 max-lg:grid-cols-1 w-[100%] gap-24 py-12">
             <div>
                 <img src={img} alt="" className='w-[85%]'/>
             </div>
