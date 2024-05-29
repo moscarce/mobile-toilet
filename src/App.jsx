@@ -1,15 +1,8 @@
-
+import {ROUTES} from "./router/Routers.jsx";
+import { useRoutes } from "react-router-dom";
 
 function App() {
-
-  return (
-    <>
-      
-      <p className="text-6xl font-bold">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+  return useRoutes(ROUTES) ;
 }
 
-export default App
+export default App;
