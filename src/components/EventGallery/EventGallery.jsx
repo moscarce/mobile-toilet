@@ -14,7 +14,7 @@ const EventGallery = () => {
     const imgList = [img1,img2,img3,img4,img5,img6,img7,img8,img9,img10]
 
   return (
-    <section>
+    <section className='py-20'>
         <div className='grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1'>
             {
             imgList.map((img,index)=>(
